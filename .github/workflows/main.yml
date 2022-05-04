@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build
-        run: yarn build
+        run: yarn install && yarn build
       - name: Deploy
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
