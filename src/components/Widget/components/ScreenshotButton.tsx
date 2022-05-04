@@ -30,7 +30,7 @@ const ScreenshotButton = ({ screenshot, onScreenshotTook }: ScreenshotProps) => 
           hover:text-zinc-100 transition-colors"
         style={{
           backgroundImage: `url(${screenshot})`,
-          backgroundPosition: 'center bottom',
+          backgroundPosition: 'center center',
           backgroundSize: 180
         }}
       >
