@@ -18,3 +18,4 @@ jobs:
           username: ${{ secrets.ftp_username_feedget }}
           password: ${{ secrets.ftp_password_feedget }}
           server-dir: /
+          local-dir: dist/
