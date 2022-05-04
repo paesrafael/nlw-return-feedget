@@ -18,7 +18,7 @@ body {
   @apply font-mono font-medium text-sky-500 dark:text-sky-400
 }
 
-.nwl-return-background {
+.nlw-return-background {
   padding-top: 100px;
   padding-bottom: 0;
   background-image: url('https://global-uploads.webflow.com/61d83a2ebb0ae01ab96e841a/6250a4d26317fe5ba17bd651_blur-nlw-2.png');
