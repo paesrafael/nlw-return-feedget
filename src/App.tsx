@@ -1,7 +1,7 @@
-import Widget from './components/Widget'
+import Home from './pages'
 
 const App = () => {
-  return <Widget />
+  return <Home />
 }
 
 export default App
