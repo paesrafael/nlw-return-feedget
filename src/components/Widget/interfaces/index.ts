@@ -15,8 +15,13 @@ interface ScreenshotProps {
   onScreenshotTook: (screenshot: string | null) => void
 }
 
+interface FeedbackSuccessProps {
+  onFeedbackReset: () => void
+}
+
 export type {
   FeedbackTypeStepProps,
   FeedbackContentStepProps,
-  ScreenshotProps
+  ScreenshotProps,
+  FeedbackSuccessProps
 }
