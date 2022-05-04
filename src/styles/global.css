@@ -5,3 +5,7 @@
 body {
   @apply bg-[#09090A] text-zinc-100
 }
+
+.custom-items-focus {
+  @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-500
+}
