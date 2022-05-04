@@ -9,6 +9,9 @@ module.exports = {
         brand: {
           300: '#996DFF',
           500: '#8257e6'
+        },
+        highlight: {
+          500: '#f1594b'
         }
       },
       borderRadius: {
