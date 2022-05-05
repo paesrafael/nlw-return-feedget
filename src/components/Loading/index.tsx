@@ -1,9 +1,23 @@
-import { CircleNotch } from 'phosphor-react'
+import { CircleNotch, Heart } from 'phosphor-react'
 
-const Loading = () => {
+import LoadingProps from './interfaces'
+
+const Loading = ({ size, heart }: LoadingProps) => {
   return (
-    <div className="w-6 h-6 flex items-center justify-center overflow-hidden">
-      <CircleNotch weight="bold" className="w-4 h-4 animate-spin" />
+    <div className={`${!size && 'w-6 h-6'} flex items-center justify-center overflow-hidden`}>
+      {!heart ? (
+        <CircleNotch
+          weight="bold"
+          size={size}
+          className="w-4 h-4 animate-spin"
+        />
+      ) : (
+        <Heart
+          weight="thin"
+          size={size}
+          className={`${!size && 'w-4 h-4'} animate-spin`}
+        />
+      )}
     </div>
   )
 }
